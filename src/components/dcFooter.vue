@@ -26,6 +26,48 @@
                 <span>DC POWER VISA</span>
             </div>
         </div>
+        <div class="footerlistpart">
+            <div>
+                <div class="listcolumn">
+                    <h2>DC COMICS</h2>
+                    <a href="#">Characters</a>
+                    <a href="#">Comics</a>
+                    <a href="#">Movies</a>
+                    <a href="#">TV</a>
+                    <a href="#">Games</a>
+                    <a href="#">Videos</a>
+                    <a href="#">News</a>
+                </div>
+                <div class="listcolumn">
+                    <h2>SHOP</h2>
+                    <a href="#">Shop DC</a>
+                    <a href="#">Shop DC Collectibles</a>
+                </div>
+            </div>
+            <div class="listcolumn">
+                <h2>DC</h2>
+                <a href="#">Terms Of Use</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">Ad Choices</a>
+                <a href="#">Advertising</a>
+                <a href="#">Jobs</a>
+                <a href="#">Subscriptions</a>
+                <a href="#">Talent Workshops</a>
+                <a href="#">CPSC Certificates</a>
+                <a href="#">Ratings</a>
+                <a href="#">Shop help</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="listcolumn">
+                <h2>SITIES</h2>
+                <a href="#">DC</a>
+                <a href="#">MAD Magazine</a>
+                <a href="#">DC Kids</a>
+                <a href="#">DC Universe</a>
+                <a href="#">DC Power Visa</a>
+            </div>
+
+        </div>
     </section>
 </template>
 
@@ -52,7 +94,18 @@
     gap: 20px;
     align-items: center;
     justify-content: center;
+}
 
+.footerlistpart {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
+.listcolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 10px;
 }
 </style>

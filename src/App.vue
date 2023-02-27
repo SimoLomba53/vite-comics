@@ -7,14 +7,6 @@ import dcFooter from './components/dcFooter.vue'
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="" target="_blank">
-      <img src="" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
   <HelloWorld />
   <dcMain />
   <dcFooter />
