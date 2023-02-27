@@ -68,6 +68,24 @@
             </div>
 
         </div>
+        <div class="footerlastpart">
+            <div>
+                <span>SIGN-UP NOW!</span>
+            </div>
+            <div class="followus">
+                <div>
+                    <span>FOLLOW US</span>
+                </div>
+                <div class="socialicon">
+                    <img src="../assets/img/footer-facebook.png" alt="">
+                    <img src="../assets/img/footer-twitter.png" alt="">
+                    <img src="../assets/img/footer-youtube.png" alt="">
+                    <img src="../assets/img/footer-pinterest.png" alt="">
+                    <img src="../assets/img/footer-periscope.png" alt="">
+                </div>
+            </div>
+
+        </div>
     </section>
 </template>
 
@@ -100,6 +118,9 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    background-image: url(../assets/img/footer-bg.jpg);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .listcolumn {
@@ -107,5 +128,28 @@
     flex-direction: column;
     gap: 10px;
     font-size: 10px;
+}
+
+.footerlastpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.142);
+}
+
+.followus {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.socialicon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 </style>
