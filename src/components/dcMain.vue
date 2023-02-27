@@ -10,18 +10,10 @@
     </div>
 </template>
 
-<style>
-.mainsec {
-    background-color: black;
-    width: 100%;
-}
+<style lang="scss">
+@use "../assets/scss/general.scss" as *;
 
 
-.content {
-    min-width: 1200px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
 
 h1 {
     color: white;

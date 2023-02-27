@@ -89,67 +89,6 @@
     </section>
 </template>
 
-<style>
-.serviceimage {
-    min-width: 1200px;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: rgb(0, 132, 255);
-    align-items: center;
-    justify-content: center;
-}
-
-.serviceimage img {
-    width: 60px;
-}
-
-.singleservice {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.footerlistpart {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    background-image: url(../assets/img/footer-bg.jpg);
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.listcolumn {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    font-size: 10px;
-}
-
-.footerlastpart {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: rgba(0, 0, 0, 0.142);
-}
-
-.followus {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
-}
-
-.socialicon {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-}
+<style lang="scss">
+@use "../assets/scss/general.scss" as *;
 </style>
