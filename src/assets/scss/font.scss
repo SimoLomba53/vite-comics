@@ -1,6 +1,11 @@
 .conteiner li {
     color: grey;
+
+    &:hover {
+        color: blue;
+    }
 }
+
 
 .singleservice span {
     color: white;
