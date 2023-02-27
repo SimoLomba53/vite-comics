@@ -36,23 +36,6 @@ export default {
     </div>
 </template>
 
-<style>
-.headsec {
-    width: 100%;
-}
-
-.conteiner {
-    display: flex;
-    flex-direction: row;
-    min-width: 1200px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.itemList {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    list-style: none;
-}
+<style lang="scss">
+@use "../assets/scss/general.scss" as *;
 </style>
