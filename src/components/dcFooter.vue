@@ -70,7 +70,7 @@
         </div>
         <div class="footerlastpart">
             <div>
-                <span>SIGN-UP NOW!</span>
+                <button>SIGN-UP NOW!</button>
             </div>
             <div class="followus">
                 <div>
@@ -91,4 +91,11 @@
 
 <style lang="scss">
 @use "../assets/scss/general.scss" as *;
+@use "../assets/scss/font.scss" as *;
+
+.footerlastpart button {
+    background-color: rgba(0, 0, 0, 0.142);
+    color: white;
+    border-color: rgb(63, 131, 255);
+}
 </style>

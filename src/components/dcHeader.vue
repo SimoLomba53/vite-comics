@@ -38,4 +38,5 @@ export default {
 
 <style lang="scss">
 @use "../assets/scss/general.scss" as *;
+@use "../assets/scss/font.scss" as *;
 </style>

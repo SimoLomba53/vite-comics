@@ -14,4 +14,5 @@ import dcFooter from './components/dcFooter.vue'
 
 <style lang="scss" scoped>
 @use "./assets/scss/general.scss";
+@use "./assets/scss/font.scss";
 </style>
