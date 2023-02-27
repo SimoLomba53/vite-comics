@@ -1,5 +1,9 @@
 <script setup>
 import HelloWorld from './components/dcHeader.vue'
+import dcMain from './components/dcMain.vue'
+import dcFooter from './components/dcFooter.vue'
+
+
 </script>
 
 <template>
@@ -11,7 +15,9 @@ import HelloWorld from './components/dcHeader.vue'
       <img src="" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <HelloWorld />
+  <dcMain />
+  <dcFooter />
 </template>
 
 <style scoped>

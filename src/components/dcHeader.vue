@@ -20,7 +20,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <div class="headsec">
         <div class="conteiner">
             <div>
                 <img src="../assets/img/dc-logo.png" alt="">
@@ -33,10 +33,14 @@ export default {
                 </ul>
             </div>
         </div>
-    </section>
+    </div>
 </template>
 
 <style>
+.headsec {
+    width: 100%;
+}
+
 .conteiner {
     display: flex;
     flex-direction: row;
