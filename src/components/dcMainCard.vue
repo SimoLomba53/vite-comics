@@ -8,14 +8,10 @@ export default {
 </script>
 
 <template>
-    <div class="mainsec">
-        <div class="content">
-            <li>
-                <img :src="card_data.thumb" alt="">
-                <h2>{{ card_data.series }}</h2>
-            </li>
-        </div>
-    </div>
+    <li>
+        <img :src="card_data.thumb" alt="">
+        <h2>{{ card_data.series }}</h2>
+    </li>
 </template>
 
 <style lang="scss"></style>

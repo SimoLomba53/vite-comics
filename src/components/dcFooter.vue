@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <section>
+    <div class="footersection">
         <div class="serviceimage">
             <div class="singleservice">
                 <img src="../assets/img/buy-comics-digital-comics.png" alt="">
@@ -86,7 +86,7 @@
             </div>
 
         </div>
-    </section>
+    </div>
 </template>
 
 <style lang="scss">

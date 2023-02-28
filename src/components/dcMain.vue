@@ -26,7 +26,25 @@ export default {
 <style lang="scss">
 @use "../assets/scss/general.scss" as *;
 
+.mainsec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 
+}
+
+
+
+.content li img {
+    width: 280px;
+    height: 280px;
+
+}
+
+.content h2 {
+    font-size: 10px;
+}
 
 h1 {
     color: white;

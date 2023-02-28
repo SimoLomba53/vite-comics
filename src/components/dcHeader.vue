@@ -34,6 +34,9 @@ export default {
             </div>
         </div>
     </div>
+    <div class="jumbo">
+        <img src="../assets/img/jumbotron.jpg" alt="">
+    </div>
 </template>
 
 <style lang="scss">
