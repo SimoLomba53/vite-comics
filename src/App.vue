@@ -103,7 +103,7 @@ export default {
 
 <template>
   <HelloWorld />
-  <dcMain />
+  <dcMain :cards=comics />
   <dcFooter />
 </template>
 
