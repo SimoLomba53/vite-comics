@@ -1,11 +1,23 @@
 <script>
 
+import DcMainCard from './dcMainCard.vue';
+
+
+export default {
+    props: {
+        cards: Array,
+
+    },
+    components: { DcMainCard },
+};
+
 </script>
 
 <template>
     <div class="mainsec">
         <div class="content">
-            <h1>..> Content goes here</h1>
+
+            <DcMainCard v-for="card in cards" :card_data="card" />
 
         </div>
     </div>

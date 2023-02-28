@@ -1,7 +1,7 @@
 <script>
-import HelloWorld from './components/dcHeader.vue'
-import dcMain from './components/dcMain.vue'
-import dcFooter from './components/dcFooter.vue'
+import HelloWorld from './components/dcHeader.vue';
+import dcMain from './components/dcMain.vue';
+import dcFooter from './components/dcFooter.vue';
 
 export default {
   data() {
@@ -94,6 +94,8 @@ export default {
       ],
     };
   },
+
+  components: { HelloWorld, dcMain, dcFooter }
 };
 
 
